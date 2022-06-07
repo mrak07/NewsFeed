@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity(), NewsItemClicked {
 
 
     override fun OnitemClicked(item: String) {
-        Toast.makeText(this,"clicked item is $item",Toast.LENGTH_LONG).show()
+        Toast.makeText(this,"clicked item is   $item",Toast.LENGTH_LONG).show()
 
     }
 }
